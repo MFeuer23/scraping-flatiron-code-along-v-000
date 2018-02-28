@@ -13,6 +13,12 @@ class Scraper
       
   end
   
+  def make_courses
+    
+  end
+  
+  
+  
     def print_courses
     self.make_courses
     Course.all.each do |course|
